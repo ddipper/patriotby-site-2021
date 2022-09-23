@@ -1,0 +1,332 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(images/bg.jpg); background-size: cover;  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:rgb(91, 72, 52);
+}
+img{
+    object-fit: cover;
+}
+#s1{
+    text-align: left;
+    width: 50%;
+    height: 400px;
+}
+.s {
+    color: white;
+    width: 80%;
+    margin: 0px;
+}
+.s h2{
+    font-weight: normal;
+}
+.s img{
+    width: 50%;
+}
+#s{
+    background-color: rgb(91, 72, 52);
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 6%;
+    border-radius: 25px 25px 25px 25px;
+}
+#s h1{
+    color: rgb(147, 128, 108);
+    padding-top: 0.7%;
+    font-size: 30pt;
+}
+#s1s{
+    position: fixed; 
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    margin-left: 6%;
+    height: 200px;
+    margin-top: 2%;
+}
+#s1 {
+    width:25%;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: left;
+    height: 200px;
+    border-radius: 25px 25px 0px 0px;
+}
+#s1 h2{
+    background-color: rgb(147, 128, 108);
+    padding-bottom: 12.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(147, 128, 108);
+    font-size: 25pt;
+    font-weight: bold;
+    border-radius: 0px 25px 25px 0px;
+}
+#s1i{
+    text-align: left;
+    padding-top: 0%;
+    width:25%;
+    height: 200px
+}
+#s1i img{
+    width:100%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+}                  /*tnd of block 1*/
+#s2s{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    margin-left: 54%;
+    margin-top: 7%;
+    height: 200px;
+    position: fixed; 
+    width: 80%;
+}
+#s2 {
+    width:25%;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: right;
+    height: 200px;
+
+}
+#s2 h2{
+    background-color: rgb(91, 72, 52);
+    padding-bottom: 12.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(147, 128, 108);
+    font-size: 25pt;
+    font-weight: bold;
+    border-radius: 25px 0px 0px 25px;
+}
+#s2 a {
+    color:rgb(147, 128, 108);
+}
+#s2i{
+    text-align: right;
+    padding-top: 0%;
+    width:25%;
+    height: 200px
+}
+#s2i img{
+    width:100%;
+    height: 100%;
+    border-radius: 0px 25px 25px 0px;
+}             /*end of block 2*/
+#s3s{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    margin-left: 6%;
+    height: 200px;
+    position: fixed; 
+    width: 80%;
+    margin-top: 18%;
+}
+#s3 {
+    width:25%;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: left;
+    height: 200px;
+}
+#s3 h2{
+    background-color: rgb(147, 128, 108);
+    padding-bottom: 12.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(91, 72, 52);
+    font-size: 25pt;
+    font-weight: bold;
+    border-radius: 0px 25px 25px 0px;
+}
+#s3i{
+    text-align: left;
+    padding-top: 0%;
+    width:25%;
+    height: 200px
+}
+#s3i img{
+    width:100%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+}                               /*end of block3*/
+#s4s{
+    position: fixed;
+    display: flex;
+    justify-content: left;
+    margin-left: 54%;
+    height: 200px;
+    position: fixed; 
+    width: 80%;
+    margin-top: 23%;
+}
+#s4 {
+    width:25%;
+    margin-left: 0px;
+    padding-top: 0px;
+    text-align: right;
+    height: 200px;
+}
+#s4 h2{
+    background-color: rgb(91, 72, 52);
+    padding-bottom: 12.5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(147, 128, 108);
+    font-size: 25pt;
+    font-weight: bold;
+    border-radius: 25px 0px 0px 25px;
+}
+#s4 a {
+    color:rgb(147, 128, 108);
+}
+#s4i{
+    text-align: right;
+    padding-top: 0%;
+    width:25%;
+    height: 200px;
+
+}
+#s4i img{
+    width:100%;
+    height: 100%; 
+    border-radius: 0px 25px 25px 0px;
+}  
+footer{
+    position: fixed;
+    margin-top: 39.8%;
+    width: 100%;
+    background-color: rgb(91, 72, 52);
+    height: 100px;
+    color: rgb(147, 128, 108);
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+footer a{
+    color: rgb(147, 128, 108);
+}
+#fC h2{
+    font-size: 13pt;
+    margin-top: 6%;
+    margin-right:2% ;
+}
+#fI{
+    margin-left: 2%;
+    font-size: 12pt;
+}
+#fSh{
+    font-size: 13pt;
+}
+#s2s a:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(207, 195, 182);
+    width: 70%;
+}
+#s2s a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(147, 128, 108);
+    width: 70%;
+}
+#s2s:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 85%;
+}
+#s2s:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 80%;
+}         /*end anim block 2*/
+#s1s a:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(54, 49, 42);
+    font-weight: bold;
+}
+#s1s a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(91, 72, 52);
+    width: 70%;
+}
+#s1s:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 85%;
+}
+#s1s:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 80%;
+}                   /*end of anim 1*/
+#s3s a:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(54, 49, 42);
+    
+}
+#s3s a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(91, 72, 52);
+    width: 70%;
+}
+#s3s:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 85%;
+}
+#s3s:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 80%;
+}           /*end of anim 3*/
+#s4s a:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(207, 195, 182);
+    width: 70%;
+}
+#s4s a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(147, 128, 108);
+    width: 70%;
+}
+#s4s:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 85%;
+}
+#s4s:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    width: 80%;
+} 
+footer a:hover{
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+    color: rgb(207, 195, 182);
+}
+footer a:not(:hover){
+    transition-timing-function: linear;
+    transition-duration: 500ms;
+}
